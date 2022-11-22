@@ -116,6 +116,19 @@ class  Res {
                         Res e6 = new Res(name5, number5);
                         arr.add(e6);
                         break;
+                    case 6:
+                        System.out.println("enter count");
+                        int count6 = s.nextInt();
+                        System.out.println("enter name");
+                        String name6 = s.next();
+                        System.out.println("enter phone number");
+                        long number6= s.nextLong();
+                        Res e7 = new Res(name6, number6);
+                        arr.add(e7);
+                        break;
+
+
+
 
 
 
